@@ -30,7 +30,7 @@
         "action":"allow"
     }]
 },{
-    "group":"zombie-soldier",
+    "group":"zombie soldier",
     "permissions":[{
         "resource":"login",
         "methods":["GET","POST"],
@@ -40,11 +40,11 @@
         "methods":["GET","POST","PUT"],
         "action":"allow"
     },{
-        "resource":"agregarArma",
+        "resource":"ArmaA",
         "methods":["GET","POST","PUT"],
         "action":"allow"
     },{
-        "resource":"verArmas",
+        "resource":"verA",
         "methods":["GET","POST"],
         "action":"allow"
     },{
@@ -54,7 +54,7 @@
     }]
 
 },{
-    "group":"zombie-queen",
+    "group":"zombie queen",
     "permissions":[{
         "resource":"login",
         "methods":["GET","POST"],
@@ -64,7 +64,7 @@
         "methods":["GET","POST","PUT"],
         "action":"allow"
     },{
-        "resource":"verArmas",
+        "resource":"verA",
         "methods":["GET"],
         "action":"allow"
     },{
@@ -77,7 +77,7 @@
         "action":"allow"
     }]
 },{
-    "group":"zombie-king",
+    "group":"zombie king",
     "permissions":[{
         "resource":"login",
         "methods":["GET","POST"],
@@ -87,11 +87,11 @@
         "methods":["GET","POST","PUT"],
         "action":"allow"
     },{
-        "resource":"agregarArma",
+        "resource":"ArmaA",
         "methods":["GET","POST","PUT"],
         "action":"allow"
     },{
-        "resource":"verArmas",
+        "resource":"verA",
         "methods":["GET"],
         "action":"allow"
     },{
